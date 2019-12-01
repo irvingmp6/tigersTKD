@@ -1,0 +1,19 @@
+
+body {
+  background-image: url("tiger.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container1 {
+  background-color: white;
+}
+
+.w3-row 
+{  background-color: white;
+}
+
+.slideshow-container {
+  padding: 0;
+}
