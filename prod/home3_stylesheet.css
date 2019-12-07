@@ -1,0 +1,91 @@
+@media (min-width: 601px) {
+.w3-quarter {    
+  width: 33%; 
+  }
+}
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fight.jpg");
+  min-height: 100%;
+/*  filter: grayscale(50%)*/
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#home > div.w3-display-bottomleft.w3-text-grey.w3-large > i {
+	color: white;
+}
+
+.w3-greyscale-min, .w3-grayscale-min {
+    filter: grayscale(0%);
+}
+
+.w3-text-white {
+	color: white!important;
+/*	transform: translate(0%,-50%)*/
+}
+
+#home > div.w3-display-left.w3-text-white > p > a {
+	opacity: 1;
+	background-color: #f87a00!important;
+}
+
+#myNavbar {
+	background-color: #222629!important;
+	color: #f1f1f1!important;
+}
+
+#logo-pane{
+    background-image: url(images/tiger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding:200px 15px
+}
+
+.w3-container {
+  background-color: #f1f1f1!important;
+  color: black!important;
+/*  padding:128px 16px;*/
+}
+
+#logo-pane {
+	background-color: white!important;
+  height: 600px;
+}
+
+#testimonies {
+/*	background-color: !important;*/
+}
+
+#pricing {
+	background-color: #222629!important;
+	color: #f1f1f1!important;
+}
+
+#price {
+  float: none;
+	margin: auto;
+}
+
+/*.w3-red {
+  background-color: #f87a00!important;
+}*/
+
+.w3-black {
+  background-color: #222629!important;
+  color: #f1f1f1!important; 
+}
