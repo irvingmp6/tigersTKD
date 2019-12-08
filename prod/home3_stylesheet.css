@@ -8,8 +8,24 @@
 iframe, #hours > h3, #hours p {
   margin: 0;
   text-align: left;
-  padding-left: 0;
+  padding-top: 0;
 }
+}
+
+@media (min-width: 601px) {
+.m6 > img {    
+  max-height: 75%;
+  max-width: 75%;
+/*  min-height: 100%;
+  min-width: 100%;*/
+/*  padding-left: 30px*/
+  }
+}
+
+@media (min-width: 601px) {
+#about-container > div > div:nth-child(2) {
+  padding-top: 45px;
+  }
 }
 
 
@@ -115,3 +131,4 @@ margin: 0;
   padding: 0;
   padding-bottom: 50px;
 }
+
