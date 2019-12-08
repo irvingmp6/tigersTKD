@@ -4,6 +4,14 @@
   }
 }
 
+@media (min-width: 300px) {
+iframe, #hours > h3, #hours p {
+  margin: 0;
+  text-align: left;
+  padding-left: 0;
+}
+}
+
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -81,11 +89,29 @@ body, html {
 	margin: auto;
 }
 
-/*.w3-red {
-  background-color: #f87a00!important;
-}*/
-
 .w3-black {
   background-color: #222629!important;
   color: #f1f1f1!important; 
+}
+
+iframe, #hours > h3, #hours p {
+  display: block;
+  margin: auto;
+  text-align: left;
+  padding: auto;
+}
+
+iframe, #hours {
+  float: left;
+}
+
+#hours {
+padding: 75px;
+padding-top: 30px;
+margin: 0;
+}
+
+.schedule-header-container > p {
+  padding: 0;
+  padding-bottom: 50px;
 }
