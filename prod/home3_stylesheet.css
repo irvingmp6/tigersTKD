@@ -28,6 +28,11 @@ iframe, #hours > h3, #hours p {
   }
 }
 
+@media (min-width: 601px) {
+#price {
+    width: 460px;
+  }
+}
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
